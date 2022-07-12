@@ -103,6 +103,6 @@ Order by AggregateRevenue DESC
 ```
 
 ### What I Learned
-* Remembered, creating a temporary temp with custom data using `VALUES` (Table Value Constructor)
-* Multiple attempts to create combinations hekped understand that `< LastName` (in this example) allows us to create combinations without repetition. Where as,`!= LastName` creates repetitive rows.
+* Remembered, how to creating a temporary temp with custom data using `VALUES` (Table Value Constructor)
+* Multiple attempts to create combinations helped understand that `< LastName` (in this example) allows us to create combinations without repetition. Where as,`!= LastName` creates repetitive rows.
 * For more than 2 combinations, we have to take into account the previous combinations carefully.
